@@ -1,0 +1,367 @@
+body {
+    background-image: url(images/blackpattern.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'PT Sans', sans-serif;
+    color: white !important ; 
+    margin: 0;
+   
+}
+
+.card {
+    background-image: url(images/blackpattern.jpg);
+}
+
+.modal-body {
+    background-image: url(images/blackpattern.jpg);
+}
+
+.modal-footer {
+    background-image: url(images/blackpattern.jpg);
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.picture2 {
+    display: none;
+}
+.card:hover .picture1 {
+    display: none;
+}
+.card:hover .picture2 {
+    display: block;
+}
+
+.picture4 {
+    display: none;
+}
+.card:hover .picture3 {
+    display: none;
+}
+.card:hover .picture4 {
+    display: block;
+}
+
+.picture6 {
+    display: none;
+}
+.card:hover .picture5 {
+    display: none;
+}
+.card:hover .picture6 {
+    display: block;
+}
+
+.picture8 {
+    display: none;
+}
+.card:hover .picture7 {
+    display: none;
+}
+.card:hover .picture8 {
+    display: block;
+}
+
+.picture10 {
+    display: none;
+}
+.card:hover .picture9 {
+    display: none;
+}
+.card:hover .picture10 {
+    display: block;
+}
+
+.picture12 {
+    display: none;
+}
+.card:hover .picture11 {
+    display: none;
+}
+.card:hover .picture12 {
+    display: block;
+}
+
+.picture14 {
+    display: none;
+}
+.card:hover .picture13 {
+    display: none;
+}
+.card:hover .picture14 {
+    display: block;
+}
+
+.picture16 {
+    display: none;
+}
+.card:hover .picture15 {
+    display: none;
+}
+.card:hover .picture16 {
+    display: block;
+}
+
+.picture18 {
+    display: none;
+}
+.card:hover .picture17 {
+    display: none;
+}
+.card:hover .picture18 {
+    display: block;
+}
+
+.picture20 {
+    display: none;
+}
+.card:hover .picture19 {
+    display: none;
+}
+.card:hover .picture20 {
+    display: block;
+}
+
+.b2 {
+    display: none;
+}
+.card:hover .b1 {
+    display: none;
+}
+.card:hover .b2 {
+    display: block;
+}
+
+.b4 {
+    display: none;
+}
+.card:hover .b3 {
+    display: none;
+}
+.card:hover .b4 {
+    display: block;
+}
+
+.b6 {
+    display: none;
+}
+.card:hover .b5 {
+    display: none;
+}
+.card:hover .b6 {
+    display: block;
+}
+
+.b8 {
+    display: none;
+}
+.card:hover .b7 {
+    display: none;
+}
+.card:hover .b8 {
+    display: block;
+}
+
+.b10 {
+    display: none;
+}
+.card:hover .b9 {
+    display: none;
+}
+.card:hover .b10 {
+    display: block;
+}
+
+.b12 {
+    display: none;
+}
+.card:hover .b11 {
+    display: none;
+}
+.card:hover .b12 {
+    display: block;
+}
+
+.b14 {
+    display: none;
+}
+.card:hover .b13 {
+    display: none;
+}
+.card:hover .b14 {
+    display: block;
+}
+
+.b16 {
+    display: none;
+}
+.card:hover .b15 {
+    display: none;
+}
+.card:hover .b16 {
+    display: block;
+}
+
+.b18 {
+    display: none;
+}
+.card:hover .b17 {
+    display: none;
+}
+.card:hover .b18 {
+    display: block;
+}
+
+.b20 {
+    display: none;
+}
+.card:hover .b19 {
+    display: none;
+}
+.card:hover .b20 {
+    display: block;
+}
+
+.b22 {
+    display: none;
+}
+.card:hover .b21 {
+    display: none;
+}
+.card:hover .b22 {
+    display: block;
+}
+
+.b24 {
+    display: none;
+}
+.card:hover .b23 {
+    display: none;
+}
+.card:hover .b24 {
+    display: block;
+}
+
+.b26 {
+    display: none;
+}
+.card:hover .b25 {
+    display: none;
+}
+.card:hover .b26 {
+    display: block;
+}
+
+.e2 {
+    display: none;
+}
+.card:hover .e1 {
+    display: none;
+}
+.card:hover .e2 {
+    display: block;
+}
+
+.e4 {
+    display: none;
+}
+.card:hover .e3 {
+    display: none;
+}
+.card:hover .e4 {
+    display: block;
+}
+
+.e6 {
+    display: none;
+}
+.card:hover .e5 {
+    display: none;
+}
+.card:hover .e6 {
+    display: block;
+}
+
+.e8 {
+    display: none;
+}
+.card:hover .e7 {
+    display: none;
+}
+.card:hover .e8 {
+    display: block;
+}
+
+.e10 {
+    display: none;
+}
+.card:hover .e9 {
+    display: none;
+}
+.card:hover .e10 {
+    display: block;
+}
+
+.e12 {
+    display: none;
+}
+.card:hover .e11 {
+    display: none;
+}
+.card:hover .e12 {
+    display: block;
+}
+
+.e14 {
+    display: none;
+}
+.card:hover .e13 {
+    display: none;
+}
+.card:hover .e14 {
+    display: block;
+}
+
+.e16 {
+    display: none;
+}
+.card:hover .e15 {
+    display: none;
+}
+.card:hover .e16 {
+    display: block;
+}
+
+
+
+.s4 {
+    display: none;
+}
+.card:hover .s3 {
+    display: none;
+}
+.card:hover .s4 {
+    display: block;
+}
+
+.s6 {
+    display: none;
+}
+.card:hover .s5 {
+    display: none;
+}
+.card:hover .s6 {
+    display: block;
+}
+
+.smodal {
+    color: white;
+}
+
+

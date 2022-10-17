@@ -1,0 +1,1334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Carousel Template · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+    ">
+
+    
+
+    
+
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+<main>
+
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <img  src="images/Onepiece2.jpg"  alt="" class="d-block w-100" width="100%" height="100%"> 
+      </div>
+      <div class="carousel-item">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <img  src="images/dragonball2.jpg"  alt="" class="d-block w-100" width="100%" height="100%"> 
+       </div>
+      <div class="carousel-item">
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+        <img  src="images/Slamdunk.jpg"  alt="" class="d-block w-100" width="100%" height="100%"> 
+       
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <section>
+
+
+
+    <div class="container">
+      <div class="mt-5">
+        <h1 class="text-center">Top 5 Anime</h1>
+      </div>
+      <div class="row g-5">
+        <div class="col-md-4">
+          <div class="card">
+            
+              <img src="images/Slamdunk.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Slam Dunk</h3>
+               
+            
+              </div>
+              <div class="card-footer">
+                <button class="btn btn-dark"><a href="#Slam Dunk">View</a></button>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            
+              <img src="images/Onepiece.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">One Piece</h3>
+               
+              
+                  <div class="card-footer">
+                    <button class="btn btn-dark"><a href="#One Piece">View</a></button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            
+              <img src="images/Dragonball.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Dragonball</h3>
+                
+                
+                  <div class="card-footer">
+                    <button class="btn btn-dark"><a href="#Dragon Ball">View</a></button>
+                  </div>
+              </div>
+          </div>
+        </div> 
+        <div class="col-md-4">
+          <div class="card">
+           
+              <img src="images/Hunterxhunter.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Hunter X Hunter</h3>
+                
+               
+                  <div class="card-footer">
+                    <button class="btn btn-dark"><a href="#Hunter x Hunter">View</a></button>
+                  </div>
+              </div>
+          </div>
+        </div> 
+        <div class="col-md-4">
+          <div class="card">
+           
+              <img src="images/Slime.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">That Time I Got Reincarnated as a Slime</h3>
+             
+             
+                  <div class="card-footer">
+                    <button class="btn btn-dark"><a href="#Slime">View</a></button>
+                  </div>
+              </div>
+          </div>
+        </div>     
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <!--Start Slam Dunk-->
+    
+        <div class="container">
+          <div id="Slam-Dunk" class="mt-5">
+            <h1 class="text-center">Slamdunk</h1>
+         
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <img src="images/w2.jpg" alt="" class="w-100 img-thumbnail" />
+              </div>
+              <div class="col-md-6">
+             
+    
+              <p> Hanamichi Sakuragi is a delinquent and the leader of a gang. Sakuragi is very unpopular with girls, having been rejected an astonishing fifty times. In his first year at Shohoku High School, he meets Haruko Akagi, the girl of his dreams, and is overjoyed when she is not repulsed or scared of him like all the other girls he has asked out.
+    
+                Haruko, recognizing Sakuragi's athleticism, introduces him to the Shohoku basketball team. Sakuragi is reluctant to join the team at first, as he has no prior experience in sports and thinks that basketball is a game for losers because his fiftieth rejection was in favor of a basketball player. Sakuragi, despite his extreme immaturity and fiery temper, proves to be a natural athlete and joins the team, mainly in the hopes of impressing and getting closer to Haruko. Later on, Sakuragi realizes that he has come to actually love the sport, despite having previously played primarily because of his crush on Haruko. Kaede Rukawa—Sakuragi's bitter rival (both in basketball and because Haruko has a massive crush, albeit one-sided, on Rukawa), the star rookie and a "girl magnet"—joins the team at the same time. Not long after, Hisashi Mitsui, a skilled three-point shooter and ex–junior high school MVP, and Ryota Miyagi, a short but fast point guard, both rejoin the team and together these four struggle to fulfill team captain Takenori Akagi's dream of winning the national championship. Together, these misfits gain publicity and the once little-known Shohoku basketball team becomes an all-star contender in Japan who gained a popularity after defeating one of the powerhouse highschool teams at Interhigh.
+              </p>
+               
+              </div>
+            </div>
+          </div>
+    
+       
+    
+          <div class="container">
+            <div class="mt-5">
+              <h1 class="text-center">Characters</h1>
+            </div>
+            <div class="row g-5 d-flex justify-content-evenly">
+              <div class="col-md-4">
+                <div class="card">
+                    <div class="b17">
+                      <img src="images/SakuragiT.webp" alt="" class="card-img-top">
+                    </div>
+                    <div class="b18">
+                      <img src="images/Sakuragi2.webp" alt="" class="card-img-top w-50">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h3 class="card-title"><a href="Sakuragi.html" class="text-light " data-bs-toggle="modal" data-bs-target="#SakuragiModal"> Hanamichi Sakuragi</a></h3>
+                     
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                        </p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="card">
+                    <div class="b19">
+                      <img src="images/RukawaT.webp" alt="" class="card-img-top">
+                    </div>
+                    <div class="b20">
+                      <img src="images/Rukawa2.webp" alt="" class="card-img-top w-50">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h3 class="card-title">Kaede Rukawa</h3>
+                     
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                        </p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="b21">
+                    <img src="images/AkagiT.webp" alt="" class="card-img-top">
+                  </div>
+                  <div class="b22">
+                    <img src="images/akagi2.jpg" alt="" class="card-img-top w-50">
+                  </div>
+                   
+                    <div class="card-body">
+                      <h3 class="card-title">Takenori Akagi</h3>
+                      
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                        </p>
+                    </div>
+                </div>
+              </div> 
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="b23">
+                    <img src="images/RyotaT.webp" alt="" class="card-img-top">
+                  </div>
+                  <div class="b24">
+                    <img src="images/Miyagi2.webp" alt="" class="card-img-top w-50">
+                  </div>
+                    
+                    <div class="card-body">
+                      <h3 class="card-title">Ryota Miyagi</h3>
+                      
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                        </p>
+                    </div>
+                </div>
+              </div> 
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="b25">
+                    <img src="images/MitsuiT.webp" alt="" class="card-img-top">
+                  </div>
+                  <div class="b26">
+                    <img src="images/Mitsui2.webp" alt="" class="card-img-top w-50">
+                  </div>
+                    
+                    <div class="card-body">
+                      <h3 class="card-title">Isashi Mitsui</h3>
+                   
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                        </p>
+                    </div>
+                </div>
+              </div>     
+            </div>
+          </div>
+          
+          <div id="Episodes" class="mt-5">
+            <h1 class="text-center">Episodes</h1>
+            
+            <div class="container">
+                <div class="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
+                        Episode 1 : "The Genius Basketball Player Is Born?!" 
+                        Transcription: "Tensai Basuketto Man Tanjō!?" (Japanese: 天才バスケットマン 誕生!?) October 16, 1993
+                      </button>
+                    </h2>
+                    <div id="item-1" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p>Hanamichi Sakuragi is depressed after being rejected by 50 girls during middle school. Once he enters high school, he meets a girl (Haruko Akagi) who introduces him to basketball.</p>  <br>
+                         
+                            
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="container">
+                <div class="accordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-2">
+                       Episode 2 : "Go to Hell, Basketball! Hanamichi vs. Rukawa"
+                      </button>
+                    </h2>
+                    <div id="item-2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                          After school, Hanamichi has a run-in with Rukawa Kaede, who Haruko has a crush on. Hanamichi gets into a fight with him out of jealousy, causing Haruko to hate him. Later, Hanamichi gets into a competition with the Shohoku basketball captain after he calls the sport 'childish'.
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="container">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-3">
+                    </i>Episode 3 : "Gorilla vs. Hanamichi! Big Showdown!!"
+                  </button>
+                </h2>
+                <div id="item-3" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Hanamichi pulls off an amazing defense and manages to steal the ball from Akagi. He also manages to successfully pull off a slam dunk against Akagi. After the challenge, he finds out that Akagi is actually Haruko's brother.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-4">
+                    </i>Episode 3 : "Gorilla vs. Hanamichi! Big Showdown!!"
+                  </button>
+                </h2>
+                <div id="item-4" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Hanamichi pulls off an amazing defense and manages to steal the ball from Akagi. He also manages to successfully pull off a slam dunk against Akagi. After the challenge, he finds out that Akagi is actually Haruko's brother.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-4">
+                    </i>Episode 3 : "Gorilla vs. Hanamichi! Big Showdown!!"
+                  </button>
+                </h2>
+                <div id="item-4" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Hanamichi pulls off an amazing defense and manages to steal the ball from Akagi. He also manages to successfully pull off a slam dunk against Akagi. After the challenge, he finds out that Akagi is actually Haruko's brother.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-5">
+                    </i>Episode 3 : "Gorilla vs. Hanamichi! Big Showdown!!"
+                  </button>
+                </h2>
+                <div id="item-5" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Hanamichi pulls off an amazing defense and manages to steal the ball from Akagi. He also manages to successfully pull off a slam dunk against Akagi. After the challenge, he finds out that Akagi is actually Haruko's brother.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-6">
+                    </i>Episode 3 : "Gorilla vs. Hanamichi! Big Showdown!!"
+                  </button>
+                </h2>
+                <div id="item-6" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Hanamichi pulls off an amazing defense and manages to steal the ball from Akagi. He also manages to successfully pull off a slam dunk against Akagi. After the challenge, he finds out that Akagi is actually Haruko's brother.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-7">
+                    </i>Episode 3 : "Gorilla vs. Hanamichi! Big Showdown!!"
+                  </button>
+                </h2>
+                <div id="item-7" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Hanamichi pulls off an amazing defense and manages to steal the ball from Akagi. He also manages to successfully pull off a slam dunk against Akagi. After the challenge, he finds out that Akagi is actually Haruko's brother.
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    
+      <!--End Slam Dunk-->
+      
+    <!--Start One Piece-->
+      <div class="container">
+      <div id="One Piece" class="mt-5">
+        <h1 class="text-center">One Piece</h1>
+     
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/Onepiece.jpg" alt="" class="w-100 img-thumbnail" />
+          </div>
+          <div class="col-md-6">
+         
+    
+          <p>The series focuses on Monkey D. Luffy, a young man made of rubber, who, inspired by his childhood idol, the powerful pirate Red-Haired Shanks, sets off on a journey from the East Blue Sea to find the mythical treasure, the One Piece, and proclaim himself the King of the Pirates. In an effort to organize his own crew, the Straw Hat Pirates,[Jp 1] Luffy rescues and befriends a pirate hunter and swordsman named Roronoa Zoro, and they head off in search of the titular treasure. They are joined in their journey by Nami, a money-obsessed thief and navigator; Usopp, a sniper and compulsive liar; and Sanji, a perverted but chivalrous cook. They acquire a ship, the Going Merry,[Jp 2] and engage in confrontations with notorious pirates of the East Blue. As Luffy and his crew set out on their adventures, others join the crew later in the series, including Tony Tony Chopper, an anthropomorphized reindeer doctor; Nico Robin, an archaeologist and former Baroque Works assassin; Franky, a cyborg shipwright; Brook, a skeleton musician and swordsman; and Jimbei, a fish-man helmsman and former member of the Seven Warlords of the Sea. Once the Going Merry is damaged beyond repair, Franky builds the Straw Hat Pirates a new ship, the Thousand Sunny,[Jp 3] Together, they encounter other pirates, bounty hunters, criminal organizations, revolutionaries, secret agents, and soldiers of the corrupt World Government, and various other friends and foes, as they sail the seas in pursuit of their dreams.
+          </p>
+           
+          </div>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="mt-5">
+          <h1 class="text-center">Characters</h1>
+        </div>
+        <div class="row g-5 d-flex justify-content-between">
+          <div class="col-md-4 ">
+            <div class="card">
+              <div class="picture1">
+                <img src="images/Luffy.webp" alt="" class="card-img-top ">
+              </div>
+              <div class="picture2">
+                <img src="images/luffyw.jpg" alt="" class="card-img-top ">
+              </div>
+                <div class="card-body">
+                  <h3 class="card-title">Monkey D. Luffy</h3>
+                 
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="picture3">
+                <img src="images/Zoro.webp" alt="" class="card-img-top">
+              </div>
+              <div class="picture4">
+                <img src="images/zorow.jpg" alt="" class="card-img-top">
+              </div>
+                <div class="card-body">
+                  <h3 class="card-title">Roronoa Zoro</h3>
+                 
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="picture5">
+                <img src="images/Sanji.webp" alt="" class="card-img-top">
+              </div>    
+              <div class="picture6">
+                <img src="images/sanjif.jpg" alt="" class="card-img-top">
+              </div>        
+                
+                <div class="card-body">
+                  <h3 class="card-title">Sanji</h3>
+                  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+                <div class="picture7">
+                <img src="images/Nami.webp" alt="" class="card-img-top">
+                </div>
+                <div class="picture8">
+                  <img src="images/Namiw.jpg" alt="" class="card-img-top">
+                  </div>
+                <div class="card-body">
+                  <h3 class="card-title">Nami</h3>
+                  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+                <div class="picture9">
+                  <img src="images/Usopp.webp" alt="" class="card-img-top">
+                </div>
+                <div class="picture10">
+                  <img src="images/Usoppw.jpg" alt="" class="card-img-top">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Usopp</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="picture11">
+                <img src="images/Chopper.webp" alt="" class="card-img-top">
+              </div>
+              <div class="picture12"> 
+                <img src="images/Chopperw.jpg" alt="" class="card-img-top">
+              </div>
+                <div class="card-body">
+                  <h3 class="card-title">Tony Tony Chopper</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>  
+          <div class="col-md-4">
+            <div class="card">
+              <div class="picture13">
+                <img src="images/Robin.webp" alt="" class="card-img-top">
+              </div>
+              <div class="picture14">
+                <img src="images/Nico2.webp" alt="" class="card-img-top">
+              </div>
+                <div class="card-body">
+                  <h3 class="card-title">Nico Robin</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+                <div class="picture15">
+                <img src="images/Frankywebp.webp" alt="" class="card-img-top">
+                </div>
+                <div class="picture16">
+                  <img src="images/Frankyw.jpg" alt="" class="card-img-top">
+                  </div>
+                <div class="card-body">
+                  <h3 class="card-title">Franky</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="picture17">
+                <img src="images/Brook.webp" alt="" class="card-img-top">
+              </div>
+              <div class="picture18">
+                <img src="images/Brookw.jpg" alt="" class="card-img-top">
+              </div>
+                <div class="card-body">
+                  <h3 class="card-title">Brook</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="picture19">
+                <img src="images/Jinbe.webp" alt="" class="card-img-top">
+              </div> 
+              <div class="picture20">
+                <img src="images/Jinbew.jpg" alt="" class="card-img-top">
+              </div> 
+                <div class="card-body">
+                  <h3 class="card-title">Jinbe</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="19">
+                <img src="images/Yamato.webp" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                  <h3 class="card-title">Yamato</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+             
+        </div>
+      </div>
+    
+      <div id="Episodes" class="mt-5">
+        <h1 class="text-center">Episode Guide</h1>
+    
+        <div class="container mt-3">
+          <div class="row d-flex justify-content-evenly g-3">
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="Eastbluesaga.html">East Blue Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Arabasta Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Sky Island Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Water 7 Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Triller Bark Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Summit War Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Fishman-Island Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Dressrosa Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Whole Cake Island Saga</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark btn-sm"><a href="">Wano Country Saga</a></button>
+            </div>
+           
+          
+           
+            
+    
+          </div>
+        </div>
+        
+       
+    
+    
+     <!--End One Piece-->
+    
+     <!--Start Dragon Ball-->
+     <div class="container">
+      <div id="Dragon Ball" class="mt-5">
+        <h1 class="text-center">Dragonball Z</h1>
+     
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/dragonball2.jpg" alt="" class="w-100 img-thumbnail" />
+          </div>
+          <div class="col-md-6">
+         
+    
+          <p> Dragon Ball Z" follows the adventures of Goku who, along with the Z Warriors, defends the Earth against evil. The action adventures are entertaining and reinforce the concept of good versus evil. "Dragon Ball Z" teaches valuable character virtues such as teamwork, loyalty, and trustworthiness.
+          </p>
+           
+          </div>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="mt-5">
+          <h1 class="text-center">Characters</h1>
+        </div>
+        <div class="row g-5 d-flex justify-content-around">
+          <div class="col-md-4">
+            <div class="card">
+                <div class="b1">
+                <img src="images/Goku.jpeg" alt="" class="card-img-top">
+                </div>
+                <div class="b2">
+                <img src="images/goku2.gif" alt="" class="card-img-top">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Son Goku</h3>
+                 
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+                <div class="b3">
+                  <img src="images/vegeta.png" alt="" class="card-img-top">
+                </div>
+                <div class="b4">
+                  <img src="images/Vegeta3.gif" alt="" class="card-img-top w-100">
+                </div>
+                
+                <div class="card-body">
+                  <h3 class="card-title">Vegeta</h3>
+                 
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+                <div class="b5">  
+                  <img src="images/piccolo.jpg" alt="" class="card-img-top">
+                </div>
+                <div class="b6">
+                  <img src="images/Piccolo3gif.gif" alt="" class="card-img-top">
+                </div>
+              
+                <div class="card-body">
+                  <h3 class="card-title">Piccolo</h3>
+                  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="b7">
+                <img src="images/Krillin.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="b8">
+                <img src="images/krillin1.gif" alt="" class="card-img-top">
+              </div>
+                <div class="card-body">
+                  <h3 class="card-title">Krillin</h3>
+                  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="b9">
+                <img src="images/Bulma.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="b10">
+                <img src="images/Buma1.gif" alt="" class="card-img-top">
+              </div>
+                
+                <div class="card-body">
+                  <h3 class="card-title">Bulma</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>  
+          <div class="col-md-4">
+            <div class="card">
+              <div class="b11">
+                <img src="images/Anroid 18.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="b12">
+                <img src="images/Android181.gif" alt="" class="card-img-top">
+              </div>
+                
+                <div class="card-body">
+                  <h3 class="card-title">Android 18</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>  
+          <div class="col-md-4">
+            <div class="card">
+              <div class="b13">
+                <img src="images/Trunks.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="b14">
+                <img src="images/Trunks1.webp" alt="" class="card-img-top">
+              </div>
+                
+                <div class="card-body">
+                  <h3 class="card-title">Trunks</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="b15">
+                <img src="images/gohan.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="b16">
+                <img src="images/Gohan2.gif" alt="" class="card-img-top">
+              </div>
+               
+                <div class="card-body">
+                  <h3 class="card-title">Gohan</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>   
+        </div>
+      </div>
+    
+      <div id="Episodes" class="mt-5">
+        <h1 class="text-center">Episode Guide</h1>
+    
+        <div class="container mt-3">
+          <div class="row d-flex justify-content-evenly g-3">
+           
+            <div class="col-md-1">
+              <button class="btn btn-dark"><a href="">Raditz Arch</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark "><a href="">Vegeta Arch</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark "><a href="">Namek Arch</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark "><a href="">Androids Arch</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark "><a href="">Imperfect Cell</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark "><a href="">Perfect Cell</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark "><a href="">Cell Games</a></button>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-dark "><a href="">Other World</a></button>
+            </div>
+        
+    
+          </div>
+        
+        
+        
+    
+    
+     <!--End One Piece-->
+    
+    
+     <!--Start Hunter x Hunter-->
+     <div class="container">
+      <div id="Hunter x Hunter" class="mt-5">
+        <h1 class="text-center">Hunter x Hunter</h1>
+     
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/Hunter-x-Hunter.webp" alt="" class="w-100 img-thumbnail" />
+          </div>
+          <div class="col-md-6">
+         
+    
+          <p> The story follows a young boy named Gon Freecss, who was told all his life that both his parents were dead. But when he learns from Kite, an apprentice of his father Ging Freecss, that he is still alive and has since become an accomplished Hunter, Gon leaves his home on Whale Island (くじら島, Kujira Tō) to take the Hunter Examination (ハンター試験, Hantā Shiken) in order to become a Hunter like him.During the exam, Gon meets and befriends three of the other applicants: Kurapika, the last remaining member of the Kurta clan who wishes to become a Hunter in order to avenge his clan and recover their scarlet-glowing eyes that were plucked from their corpses by a band of thieves known as the Phantom Troupe; Leorio, a prospective physician who, in order to pay for medical school, desires the financial benefits that Hunters receive; and Killua Zoldyck, another twelve-year-old boy who has left his former life as a member of the world's most notorious assassin family.
+          </p>
+           
+          </div>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="mt-5">
+          <h1 class="text-center">Characters</h1>
+        </div>
+        <div class="row g-5 d-flex justify-content-evenly">
+          <div class="col-md-4">
+            <div class="card">
+                <div class="e1">
+                  <img src="images/Gon.avif" alt="" class="card-img-top">
+                </div>
+                <div class="e2">
+                  <img src="images/gon.gif" alt="" class="card-img-top">
+                </div>
+                
+                <div class="card-body">
+                  <h3 class="card-title">Gon</h3>
+                 
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="e3">
+                <img src="images/Killua.avif" alt="" class="card-img-top">
+              </div>
+              <div class="e4">
+                <img src="images/killua.gif" alt="" class="card-img-top">
+              </div>
+        
+                <div class="card-body">
+                  <h3 class="card-title">Killua</h3>
+                 
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+             <div class="e5">
+              <img src="images/kurapika-Cropped.avif" alt="" class="card-img-top">
+             </div>
+             <div class="e6">
+              <img src="images/kurapika.gif" alt="" class="card-img-top">
+             </div>
+                
+                <div class="card-body">
+                  <h3 class="card-title">Kurapika</h3>
+                  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+             <div class="e7">
+              <img src="images/leorio.avif" alt="" class="card-img-top">
+             </div>
+             <div class="e8">
+              <img src="images/leoreo.gif" alt="" class="card-img-top">
+             </div>
+               
+                <div class="card-body">
+                  <h3 class="card-title">Leorio</h3>
+                  
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="e9">
+                <img src="images/Hisoka-Morow.avif" alt="" class="card-img-top">
+              </div>
+              <div class="e10">
+                <img src="images/hisoka.gif" alt="" class="card-img-top">
+              </div>
+                
+                <div class="card-body">
+                  <h3 class="card-title">Hisoka</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>   
+          <div class="col-md-4">
+            <div class="card">
+             <div class="e11">
+              <img src="images/ging.jpg" alt="" class="card-img-top">
+             </div>
+             <div class="e12">
+              <img src="images/ging.gif" alt="" class="card-img-top">
+             </div>
+               
+                <div class="card-body">
+                  <h3 class="card-title">Ging</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+              <div class="e13">
+                <img src="images/Isaac.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="e14">
+              <img src="images/Netero.gif" alt="" class="card-img-top">
+             </div>
+                <div class="card-body">
+                  <h3 class="card-title">Chairman Netero</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div> 
+          <div class="col-md-4">
+            <div class="card">
+             <div class="e15">
+              <img src="images/Meruem.jpg" alt="" class="card-img-top">
+             </div>
+             <div class="e16">
+              <img src="images/meruem.gif" alt="" class="card-img-top">
+             </div>
+               
+                <div class="card-body">
+                  <h3 class="card-title">Meruem</h3>
+               
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum facere error harum. Ab tempora perferendis ratione repudiandae. Provident, expedita deleniti. Rem, corrupti fugit! Repudiandae cumque tenetur placeat earum aspernatur.
+                    </p>
+                </div>
+            </div>
+          </div>    
+        </div>
+      </div>
+    
+      <div id="Episodes" class="mt-5">
+        <h1 class="text-center">Episode Guide</h1>
+        
+      
+    
+       
+        <div class="container mt-3">
+        <div class="row d-flex justify-content-evenly g-3">
+         
+          <div class="col-md-2">
+            <button class="btn btn-dark"><a href="">Hunter Exam arc</a></button>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-dark "><a href="">Zoldyck Family arc </a></button>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-dark "><a href="">Heavens Arena arc</a></button>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-dark "><a href="">Yorknew City arc</a></button>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-dark "><a href="">Greed Island arc</a></button>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-dark "><a href="">Chimera Ant arc</a></button>
+          </div>
+         
+    
+        </div>
+      </div>
+    
+    
+     <!--End Hunter x Hunter-->
+    
+    
+     
+     
+      
+       
+      
+        
+    <!-----Modal Sample------>
+    
+    
+          <div class="modal fade modal-lg .imgBackdrop" id="SakuragiModal" data-bs-backdrop="static">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header bg-dark">
+                  <h1 class="text-light">Character Info</h1>
+                </div>
+                <div class="modal-body imgBackdrop bg-dark" >
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <img src="images/Sakuragi2.webp" alt="">
+                      </div>
+                      <div class="col-md-12 align-items-center">
+                        <img src="images/ST.JPG" width="740px" height="150px" class="align-items-center" class="st"  alt="" >
+                      </div>
+                    </div>
+                    <h2 class="bg-danger text-light text-center">Hanamichi Sakuragi</h2>
+                    <div class="row">
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Aliases</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                       <p>The Basketball Genius</p> 
+                       <p>King of Rebound</p> 
+    
+                       <p>Foul Out King</p> 
+    
+                       <p>Red Haired Monkey</p> 
+    
+                       <p>Simpleton King</p> 
+    
+                       <p>The Savior of Basketball</p> 
+    
+                       <p>Idiot Boy</p> 
+                      </div>
+                      
+                      </div>
+                      <h3 class="bg-danger text-light text-center">Characteristics</h3>
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Gender</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                          <p><i class="fa-solid fa-mars"></i> Male</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Birthday</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                        April 01
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Age</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                          <p>16</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Height</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                          <p>190cm (6'3)</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Weight</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                          <p>83 kg</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Eye Color</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                          <p>Brown</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Hair Color</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                          <p>Red</p>
+                        </div>
+                      </div> 
+                      <h4 class="bg-danger text-light text-center">Professional Status</h4>
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Occupation</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                         <p>Student Varsity Basketball Player</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Team</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                         <img src="/Shohoku.webp" alt="">
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Year</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                         <p>1st Year Class 7</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-light text-center">Position</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                         <p>Power Forward</p>
+                        </div>
+                      </div> 
+                      <div class="col-md-5">
+                        <h5 class="bg-danger text-white text-center">Jersey Number</h5>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="smodal">
+                         <p>#10</p>
+                        </div>
+                      </div> 
+                      
+                    </div>
+                  </div>
+                  
+                 
+               
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </section> 
+
+
+  <!-- FOOTER -->
+ 
+  <div class="container-fluid bg-dark p-3 mt-5 pb-5" style="width: 100;" >
+  
+    <div class="d-flex align-items-center justify-content-evenly text-white">
+      <img src="images/Teal Dark Blue Elegant Modern Letter A Rocket Logo.png" alt="" style="height: 70px; width: 100px;">
+      <h5>Follow us:</h5>
+      <div>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-lg"></i></a>
+      </div>
+      <div>
+        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter fa-lg"></i></a>
+      </div>
+     <div>
+     <a href="#"><i class="fa-solid fa-envelope fa-lg"></i></a>
+     </div>
+</div>
+</div>
+
+</main>
+
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+      
+  </body>
+</html>
